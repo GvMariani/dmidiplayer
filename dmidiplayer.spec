@@ -1,8 +1,8 @@
 Summary:	Multi-platform MIDI File Player
 Name:		dmidiplayer
-Version:	1.7.5
+Version:	1.8.0
 Release:	1
-License:	GPLv3+
+License:	GPL-3.0-or-later
 Group:		Sound
 Url:		https://sourceforge.net/projects/dmidiplayer/
 Source0:	https://sourceforge.net/projects/dmidiplayer/files/v%{version}/%{name}-%{version}.tar.bz2
@@ -14,7 +14,7 @@ BuildRequires:	gzip-utils
 BuildRequires:	pbzip2
 BuildRequires:	uchardet
 BuildRequires:	qt6-qttools-linguist-tools
-BuildRequires:	pkgconfig(drumstick-file) >= 2.10
+BuildRequires:	pkgconfig(drumstick-file) >= 2.11.2
 BuildRequires:	pkgconfig(drumstick-rt)
 BuildRequires:	pkgconfig(drumstick-widgets)
 BuildRequires:	pkgconfig(Qt6Core) >= 6.2
